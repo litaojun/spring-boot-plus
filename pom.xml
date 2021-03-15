@@ -93,6 +93,7 @@
         <module>config</module>
         <module>distribution</module>
         <module>example</module>
+        <module>bigdatapoc</module>
         <module>framework</module>
         <module>generator</module>
         <module>scheduled</module>
