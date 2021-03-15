@@ -387,3 +387,8 @@ info:
   project-knife4j: http://${spring-boot-plus.server-ip}:${server.port}${server.servlet.context-path}/doc.html
 ############################## Spring boot admin end ###############################
 
+#东购项目组POC项目配置项
+poc:
+  item:
+    userFlag: 0
+    activeUserRate: 10
