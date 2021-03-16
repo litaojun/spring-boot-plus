@@ -38,8 +38,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @EnableConfigurationProperties
 @ServletComponentScan
-@MapperScan({"io.geekidea.springbootplus.**.mapper", "com.example.**.mapper"})
-@SpringBootApplication(scanBasePackages = {"io.geekidea.springbootplus", "com.example"})
+@MapperScan({"io.geekidea.springbootplus.**.mapper", "com.example.**.mapper" , "dg.bestv.**.mapper"})
+@SpringBootApplication(scanBasePackages = {"io.geekidea.springbootplus","dg.bestv", "com.example"})
 public class SpringBootPlusApplication {
 
     public static void main(String[] args) {
